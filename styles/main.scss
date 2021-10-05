@@ -1,0 +1,37 @@
+---
+---
+
+@font-face {
+  font-family: "BentonSans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("{{ "/assets/fonts/BentonSansBBVA-Book.woff" | relative_url }}") format("woff");
+}
+
+@font-face {
+  font-family: "BentonSans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("{{ "/assets/fonts/BentonSansBBVA-Medium.woff" | relative_url }}") format("woff");
+}
+
+@font-face {
+  font-family: "BentonSans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("{{ "/assets/fonts/BentonSansBBVA-BookItalic.woff" | relative_url }}") format("woff");
+}
+
+@font-face {
+  font-family: "BentonSans";
+  font-style: italic;
+  font-weight: 500;
+  src: url("{{ "/assets/fonts/BentonSansBBVA-MediumItalic.woff" | relative_url }}") format("woff");
+}
+
+body {
+  font-size: 16px;
+  line-height: normal;
+  font-family: "BentonSans";
+  font-weight: 400;
+}
