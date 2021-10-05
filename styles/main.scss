@@ -35,3 +35,13 @@ body {
   font-family: "BentonSans";
   font-weight: 400;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+header img {
+  max-height: 50px;
+}
