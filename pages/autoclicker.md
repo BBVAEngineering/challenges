@@ -7,7 +7,7 @@ permalink: /autoclicker
 
 ## Enunciado
 
-<video style="float: right; margin: 10px" controls autoplay>
+<video style="float: right; margin: 20px" controls autoplay>
   <source src="./assets/movies/autoclicker.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
