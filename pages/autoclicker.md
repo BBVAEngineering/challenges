@@ -3,12 +3,6 @@ layout: main
 permalink: /autoclicker
 ---
 
-<style type="text/css" media="screen">
-h1 {
-  text-align: center;
-}
-</style>
-
 {% include intro.md %}
 
 ## Enunciado
