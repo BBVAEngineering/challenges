@@ -2,13 +2,17 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
   <body>
-    <main class="page-content" aria-label="Content">
+    <div class="bg-navy">
       <div class="wrapper">
         <header>
           <img src="./assets/images/bbva.png" />
           <img src="./assets/images/js.png" />
         </header>
+      </div>
+    </div>
 
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
         {{ content }}
       </div>
     </main>

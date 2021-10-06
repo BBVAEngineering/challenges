@@ -2,6 +2,13 @@
 ---
 
 @font-face {
+  font-family: "bbva-icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("{{ '/assets/fonts/bbva-icons.woff' | relative_url }}") format("woff");
+}
+
+@font-face {
   font-family: "BentonSans";
   font-style: normal;
   font-weight: 400;
@@ -47,9 +54,58 @@ a, a:link, a:visited, a:hover, a:active {
 header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding: 100px 0px 0px 0px;
 }
 
 header img {
   max-height: 50px;
+}
+
+.bg-navy {
+    background-color: #072146;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  padding: 25px 0px;
+  text-align: left !important;
+}
+
+h2 {
+  font-size: 1.467em;
+  line-height: 1.27;
+  color: #666666;
+  padding-top: 25px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  text-align: left;
+  color: #666666;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  color: #666666;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+li:before {
+  font-family: "bbva-icons" !important;
+  margin-right: 30px;
+  content: "\F13B";
+  vertical-align: middle;
+  color: #1973b8;
+  font-size: 16px;
 }
