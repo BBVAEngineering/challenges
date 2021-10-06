@@ -59,5 +59,6 @@ La aplicación deberá estar desplegada y disponible públicamente.
 
 - Incluir la posibilidad de jugar contra otro jugador en vez de contra la "máquina".
 - Mejorar la "inteligencia" de la "máquina" para que tenga una mayor probabilidad de ganar.
+- Aumentar el número de opciones para jugar como el famoso "piedra, papel, tijeras, lagarto o Spock".
 
 {% include goodluck.html %}
