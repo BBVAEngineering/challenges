@@ -32,7 +32,9 @@ Cada vez que se haga `click` en el botón de la vista, se ganará un punto. Este
 
 Cuando se alcance un número determinado de puntos, al jugador se le mostrará un nuevo botón para comprar “autoclickers”.
 
-Comprar “autoclickers” costará un número determinado de puntos que será incremental en función del número de “autoclickers” comprados.
+Comprar “autoclickers” costará un número determinado de puntos que será incremental en función del número de “autoclickers” comprados. Se puede usar la siguiente fórmula para el coste de los "autoclickers":
+
+> `autoClickerCost = autoClickerBaseCost + autoClickerBaseCost * numAutoClickers`
 
 Por cada “autoclicker” comprado, el jugador ganará un punto cada 100 milisegundos. Si el jugador no tiene suficientes puntos para comprar un “autoclicker” el botón se le mostrará deshabilitado.
 
