@@ -55,6 +55,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 100px 0px 0px 0px;
+  padding-bottom: 50px;
 }
 
 header img {
@@ -99,6 +100,8 @@ li {
   padding-bottom: 4px;
   margin-bottom: 8px;
   line-height: 1.6;
+  padding-left: 50px;
+  position: relative;
 }
 
 li:before {
@@ -108,4 +111,6 @@ li:before {
   vertical-align: middle;
   color: #1973b8;
   font-size: 16px;
+  left: 2px;
+  position: absolute;
 }
