@@ -15,7 +15,7 @@ Como parte de nuestro proceso de selección, nos gustaría ver qué tipo de apli
 
 ## Enunciado
 
-<video style="float: right; margin: 10px" controls autoplay preload>
+<video style="float: right; margin: 10px" controls autoplay>
   <source src="./assets/movies/autoclicker.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -24,7 +24,7 @@ Queremos que crees una app móvil web progresiva basada en los famosos juegos de
 
 La aplicación debe tener una primera vista “home” en la que el usuario introducirá su nombre para registrarse y empezar el juego. Esta primera vista deberá ser la ruta por defecto y cualquier acceso a una ruta que no exista debería redirigir a dicha vista.
 
-El vista contendrá al menos un input para introducir el nombre del jugador y un botón para iniciar el juego. El botón validará que se ha introducido un nombre de usuario válido antes de iniciar el juego.
+La vista contendrá al menos un input para introducir el nombre del jugador y un botón para iniciar el juego. El botón validará que se ha introducido un nombre de usuario válido antes de iniciar el juego.
 
 Una vez se ha creado el usuario, se transiciona a la vista de juego “game” siendo ésta una nueva ruta dentro de la app.
 
@@ -67,8 +67,8 @@ Si crees que lo anterior no es suficiente y quieres demostrarnos todo lo que sab
 - La calidad, claridad y limpieza del código.
 - El uso de componentes reutilizables.
 - La realización de otro tipo de tests.
-- Herramientas de análisis estático y transpilación de código.
-- Flujo de desarrollo, construcción y despliegue.
+- Herramientas de análisis estático y formateo de código que mejoren la experiencia del desarrollador.
+- Mejoras en el flujo y la metodología de desarrollo, construcción y despliegue.
 - Otras características que consideres importantes para una aplicación web progresiva.
 
 ## Entregable

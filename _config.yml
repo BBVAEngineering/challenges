@@ -26,8 +26,7 @@ baseurl: "/challenges/" # the subpath of your site, e.g. /blog
 theme: minima
 plugins:
   - jekyll-redirect-from
-whitelist:
-  - jekyll-redirect-from
+  - jekyll-seo-tag
 sass:
   style: compact
 

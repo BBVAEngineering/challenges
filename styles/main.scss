@@ -5,28 +5,28 @@
   font-family: "BentonSans";
   font-style: normal;
   font-weight: 400;
-  src: url("{{ "/assets/fonts/BentonSansBBVA-Book.woff" | relative_url }}") format("woff");
+  src: url("{{ '/assets/fonts/BentonSansBBVA-Book.woff' | relative_url }}") format("woff");
 }
 
 @font-face {
   font-family: "BentonSans";
   font-style: normal;
   font-weight: 500;
-  src: url("{{ "/assets/fonts/BentonSansBBVA-Medium.woff" | relative_url }}") format("woff");
+  src: url("{{ '/assets/fonts/BentonSansBBVA-Medium.woff' | relative_url }}") format("woff");
 }
 
 @font-face {
   font-family: "BentonSans";
   font-style: italic;
   font-weight: normal;
-  src: url("{{ "/assets/fonts/BentonSansBBVA-BookItalic.woff" | relative_url }}") format("woff");
+  src: url("{{ '/assets/fonts/BentonSansBBVA-BookItalic.woff' | relative_url }}") format("woff");
 }
 
 @font-face {
   font-family: "BentonSans";
   font-style: italic;
   font-weight: 500;
-  src: url("{{ "/assets/fonts/BentonSansBBVA-MediumItalic.woff" | relative_url }}") format("woff");
+  src: url("{{ '/assets/fonts/BentonSansBBVA-MediumItalic.woff' | relative_url }}") format("woff");
 }
 
 body {
@@ -34,6 +34,14 @@ body {
   line-height: normal;
   font-family: "BentonSans";
   font-weight: 400;
+  color: #004481;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  color: #004481;
+  text-decoration: none;
+  font-weight: 600;
+
 }
 
 header {
