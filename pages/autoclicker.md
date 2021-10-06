@@ -8,8 +8,8 @@ permalink: /autoclicker
 ## Enunciado
 
 <video style="float: right; margin: 20px" controls autoplay>
-  <source src="./assets/movies/autoclicker.mov" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="{{ '/assets/movies/autoclicker.mov' | relative_url }}" type="video/mp4">
+  <img src="{{ '/assets/images/autoclicker.gif' | relative_url }}" alt="Ejemplo de ejecución">
 </video>
 
 Queremos que crees una app móvil web progresiva basada en los famosos juegos de puntos incrementales como __Cookie Clicker__. Si no lo conoces no pasa nada, a continuación te detallamos el funcionamiento de la misma.
