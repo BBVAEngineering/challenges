@@ -3,6 +3,7 @@ layout: main
 permalink: /autoclicker/
 redirect_from:
   - /autoclicker
+  - /auto-clicker
 ---
 
 {% include intro.md %}
@@ -46,13 +47,7 @@ La aplicación deberá estar desplegada y disponible públicamente.
 
 > **¡RECUERDA!** Los ejemplos visuales mostrados son únicamente orientativos y no deben sesgar tu creatividad.
 
-## Requisitos
-
-- La aplicación deberá contener funcionalmente, como mínimo, las instrucciones detalladas en el enunciado.
-- **El código debe ser público** y estar alojado en algún repositorio de git, por ejemplo, [Github](https://github.com/), [GitLab](https://gitlab.com/) o [Bitbucket](https://bitbucket.org).
-- Se deberán realizar **tests unitarios** de las vistas y de los componentes de la aplicación.
-- Se podrá utilizar cualquier infraestructura de alojamiento pública como, por ejemplo, [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/) o [Github Pages](https://pages.github.com/).
-- Se debe subir un **fichero README.md** al repositorio **con las instrucciones** para hacer funcionar la aplicación en local. Puedes añadir cualquier otro dato que consideres necesario.
+{% include requirements.md %}
 
 {% include extra.md %}
 
