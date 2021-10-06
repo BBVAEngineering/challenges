@@ -23,7 +23,7 @@ La vista **“home”** contendrá al menos **un campo de texto** para introduci
 
 Una vez se ha creado el usuario, se transiciona a la vista de juego **“game”** siendo ésta una nueva ruta dentro de la app.
 
-La vista **“game”** mostrará el **nombre del jugador, los puntos que tiene, tres botones para seleccionar una jugada (piedra, papel o tijera) y otro para salir**.
+La vista **“game”** mostrará el nombre del jugador, los puntos que tiene, tres botones para seleccionar una jugada (piedra, papel o tijera) y otro para salir.
 
 Cada vez que se haga `click` en uno de los botones de juego, se mostrará por pantalla la selección realizada. A continuación y tras pasar al menos un segundo, la "máquina" seleccionará su jugada dentro de las tres opciones posibles. La selección de la "máquina" deberá ser distinta en cada jugada.
 
