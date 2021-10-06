@@ -1,6 +1,8 @@
 ---
 layout: main
-permalink: /autoclicker
+permalink: /autoclicker/
+redirect_from:
+  - /autoclicker
 ---
 
 {% include intro.md %}
@@ -55,5 +57,10 @@ La aplicación deberá estar desplegada y disponible públicamente.
 {% include extra.md %}
 
 {% include output.md %}
+
+{% include bonus.md %}
+
+- Incluir la posibilidad de comprar mejoras que incrementen la productividad de los "autoclickers" a un precio alto.
+- Incluir la posibilidad de comprar "megaClickers", la evolución de los "autoClickers", un nuevo objeto más caro pero que da mejor rendimiento que su precedesor.
 
 {% include goodluck.html %}
