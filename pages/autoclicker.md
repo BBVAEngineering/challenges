@@ -35,7 +35,7 @@ Comprar “autoclickers” costará un número determinado de puntos que será i
 
 Por cada “autoclicker” comprado, el jugador ganará un punto cada 100 milisegundos. Si el jugador no tiene suficientes puntos para comprar un “autoclicker” el botón se le mostrará deshabilitado.
 
-El botón de salir permitirá volver al vista “home” y se dejarán de ganar puntos de manera automática para el jugador.
+El botón de salir permitirá volver a la vista “home” y se dejarán de ganar puntos de manera automática para el jugador.
 
 Si en la vista “home” se vuelve a introducir un nombre de jugador que ya existía, se continuará la partida dónde el jugador la dejara.
 

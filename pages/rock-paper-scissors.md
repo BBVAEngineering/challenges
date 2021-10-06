@@ -25,7 +25,7 @@ Una vez se ha creado el usuario, se transiciona a la vista de juego **“game”
 
 La vista **“game”** mostrará el nombre del jugador, los puntos que tiene, tres botones para seleccionar una jugada (piedra, papel o tijera) y otro para salir.
 
-Cada vez que se haga `click` en uno de los botones de juego, se mostrará por pantalla la selección realizada. A continuación y tras pasar al menos un segundo, la "máquina" seleccionará su jugada dentro de las tres opciones posibles. La selección de la "máquina" deberá ser distinta en cada jugada.
+Cada vez que se haga `click` en uno de los botones de juego, se mostrará por pantalla la selección realizada. A continuación y **tras pasar al menos un segundo**, la "máquina" seleccionará su jugada dentro de las tres opciones posibles. La selección de la "máquina" deberá ser distinta en cada jugada.
 
 Una vez que los dos jugadores tienen una opción seleccionada, se resolverá el ganador y se mostrará en la vista. Para computar un ganador, se deben seguir las siguientes reglas:
 
@@ -33,13 +33,9 @@ Una vez que los dos jugadores tienen una opción seleccionada, se resolverá el 
 - Tijeras gana a papel.
 - Papel gana a piedra.
 
-Existe la posibilidad de que los dos jugadores seleccionen la misma opción, en este caso se declará empate y nadie ganará ni perderá.
+Existe la posibilidad de que los dos jugadores seleccionen la misma opción, en este caso se declará empate y nadie ganará ni perderá. Cada vez que el jugador gane una jugada ganará un punto.
 
-Cada vez que el jugador gane una jugada ganará un punto.
-
-El botón de salir permitirá volver al vista “home”.
-
-Si en la vista “home” se vuelve a introducir un nombre de jugador que ya existía, se continuará la partida dónde el jugador la dejara.
+El botón de salir permitirá volver a la vista “home”. Si en la vista “home” se vuelve a introducir un nombre de jugador que ya existía, se continuará la partida dónde el jugador la dejara.
 
 Si por cualquier motivo se cerrase la applicación, al volver a acceder se continuará con el mismo estado en el que estaba cuando se cerró, es decir, **se deberán persistir los datos de todos los jugadores**.
 
