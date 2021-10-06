@@ -9,9 +9,7 @@ h1 {
 }
 </style>
 
-# ¡Demuéstranos lo que sabes!
-
-Como parte de nuestro proceso de selección, nos gustaría ver qué tipo de aplicación eres capaz de desarrollar. **Valoraremos muy positivamente cualquier característica adicional**, tanto en la aplicación como en el entorno de desarrollo o despliegue, que quieras implementar por tu cuenta.
+{% include intro.md %}
 
 ## Enunciado
 
@@ -48,7 +46,7 @@ La aplicación **deberá funcionar offline**, es decir, si en nuestro dispositiv
 
 La aplicación deberá estar desplegada y disponible públicamente.
 
-> ¡RECUERDA! Los ejemplos visuales mostrados son únicamente orientativos y no deben sesgar tu creatividad.
+> **¡RECUERDA!** Los ejemplos visuales mostrados son únicamente orientativos y no deben sesgar tu creatividad.
 
 ## Requisitos
 
@@ -58,21 +56,8 @@ La aplicación deberá estar desplegada y disponible públicamente.
 - Se podrá utilizar cualquier infraestructura de alojamiento pública como, por ejemplo, [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/) o [Github Pages](https://pages.github.com/).
 - Se debe subir un **fichero README.md** al repositorio **con las instrucciones** para hacer funcionar la aplicación en local. Puedes añadir cualquier otro dato que consideres necesario.
 
-## Otras consideraciones
+{% include extra.md %}
 
-Se puede utilizar cualquier herramienta, librería o framework, dentro del ecosistema  de JavaScript.
+{% include output.md %}
 
-Si crees que lo anterior no es suficiente y quieres demostrarnos todo lo que sabes, **se valorarán muy positivamente otros puntos como**:
-
-- La **calidad**, **claridad** y **limpieza** del código.
-- El uso de **componentes reutilizables**.
-- La realización de otro tipo de **tests**.
-- Herramientas de **análisis estático** y formateo de código que mejoren la experiencia del desarrollador.
-- Mejoras en el flujo y la metodología de desarrollo, construcción y despliegue.
-- Otras características que consideres importantes para una aplicación web progresiva.
-
-## Entregable
-
-Envíanos un **enlace al repositorio** en el que se encuentre el código de la aplicación y un **enlace con la aplicación desplegada**.
-
-**¡Buena suerte!**
+{% include goodluck.html %}
