@@ -62,6 +62,10 @@ header img {
   max-height: 50px;
 }
 
+.wrapper {
+  max-width: calc(990px - (30px * 2)) !important;
+}
+
 .bg-navy {
     background-color: #072146;
 }
