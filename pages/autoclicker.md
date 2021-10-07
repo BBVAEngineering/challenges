@@ -55,6 +55,7 @@ La aplicación deberá estar desplegada y disponible públicamente.
 
 {% include bonus.md %}
 
+- Incluir una vista de "ranking" con la máxima puntuación de cada uno de los jugadores registrados.
 - Incluir la posibilidad de comprar mejoras que incrementen la productividad de los "autoclickers" a un precio alto.
 - Incluir la posibilidad de comprar "megaClickers", la evolución de los "autoClickers", un nuevo objeto más caro pero que da mejor rendimiento que su precedesor.
 

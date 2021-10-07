@@ -22,7 +22,7 @@ La vista **“home”** contendrá al menos **un campo de texto** para introduci
 
 Una vez se ha creado el usuario, se transiciona a la vista de juego **“game”** siendo ésta una nueva ruta dentro de la app.
 
-La vista **“game”** mostrará el nombre del jugador, los puntos que tiene, dos botones para caminar, un icono o texto de semáforo y otro botón para salir.
+La vista **“game”** mostrará el nombre del jugador, los puntos que tiene, el máximo de puntos obtenido, dos botones para caminar, un icono o texto de semáforo y otro botón para salir.
 
 El icono o el texto del semáforo deberá cambiar de color periódicamente de rojo a verde para informar al usuario cuando puede moverse y cuando no. La duración del semáforo en rojo debe ser fija a **tres segundos**. Por el contrario, la duración del semáforo en verde dependerá de los puntos que tenga el usuario. Si el usuario no tiene ningún punto, el semáforo durará en verde **diez segundos**, mientras que por cada punto que gane el usuario, la duración del semáforo se verá reducida en **cien milisegundos** hasta un mínimo de **dos segundos**.
 
@@ -52,6 +52,7 @@ La aplicación deberá estar desplegada y disponible públicamente.
 
 {% include bonus.md %}
 
+- Incluir una vista de "ranking" con la máxima puntuación de cada uno de los jugadores registrados.
 - Incluir una canción mientras que el semáforo esté en verde para simular el juego real. La canción deberá variar su velocidad en función del tiempo del semáforo.
 - Incluir vibración en el dispositivo cada vez que el usuario pierda puntos.
 
