@@ -26,7 +26,7 @@ La vista **“game”** mostrará el nombre del jugador, los puntos que tiene, d
 
 El icono o el texto del semáforo deberá cambiar de color periódicamente de rojo a verde para informar al usuario cuando puede moverse y cuando no. La duración del semáforo en rojo debe ser fija a **tres segundos**. Por el contrario, la duración del semáforo en verde dependerá de los puntos que tenga el usuario. Si el usuario no tiene ningún punto, el semáforo durará en verde **diez segundos**, mientras que por cada punto que gane el usuario, la duración del semáforo se verá reducida en **cien milisegundos** hasta un mínimo de **dos segundos**.
 
-Adicionalmente, se deberá incluir una variación aleatoria **±1500 milisegundos** al semáforo en verde de manera que no sea determinista el tiempo final que transcurre en este estado. A continuación te dejamos una fórmula que puedes utilizar en tus cálculos.
+Adicionalmente, se deberá incluir una variación aleatoria de **±1500 milisegundos** al semáforo en verde de manera que no sea determinista el tiempo final que transcurre en este estado. A continuación te dejamos una fórmula que puedes utilizar en tus cálculos.
 
 > `greenLight = max(10000 - score * 100, 2000) + random(-1500, 1500)`
 
