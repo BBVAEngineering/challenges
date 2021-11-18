@@ -37,7 +37,7 @@ Existe la posibilidad de que los dos jugadores seleccionen la misma opción, en 
 
 El botón de salir permitirá volver a la vista “home”. Si en la vista “home” se vuelve a introducir un nombre de jugador que ya existía, se continuará la partida dónde el jugador la dejara.
 
-Si por cualquier motivo se cerrase la applicación, al volver a acceder se continuará con el mismo estado en el que estaba cuando se cerró, es decir, **se deberán persistir los datos de todos los jugadores**.
+Si por cualquier motivo se cerrase la aplicación, al volver a acceder se continuará con el mismo estado en el que estaba cuando se cerró, es decir, **se deberán persistir los datos de todos los jugadores**.
 
 La aplicación **deberá funcionar offline**, es decir, si en nuestro dispositivo activamos el modo avión y volvemos a la app tras haberla abierto al menos una vez, se podrá acceder a la misma sin problemas.
 
