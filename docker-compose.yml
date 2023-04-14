@@ -3,7 +3,7 @@ version: '3'
 services:
   jekyll:
     container_name: challenges
-    image: jekyll/jekyll
+    image: jekyll/jekyll:4.2.0
     command: "jekyll serve"
     ports:
       - "4000:4000"
