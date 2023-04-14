@@ -29,11 +29,9 @@ El nivel de dificultad influye en la velocidad del cambio de posición aleatoria
 
 ### Ejemplo
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <video style="padding: 20px; " controls autoplay>
-    <source s rc="{{ '/assets/movies/kill.mov' | relative_url }}" type="video/mp4">
+<div style="display: flex; justify-content: center; align-items: center; padding:16px">
     <img src="{{ '/assets/images/kill.gif' | relative_url }}" alt="Ejemplo de ejecución">
-  </video>
+
 </div>
 
 La aplicación **deberá funcionar offline**, es decir, si en nuestro dispositivo activamos el modo avión y volvemos a la app tras haberla abierto al menos una vez, se podrá acceder a la misma sin problemas.

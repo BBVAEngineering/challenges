@@ -32,11 +32,8 @@ Si por el contrario falla la casilla mostrará el número que contiene con fondo
 
 ### Video ejemplo
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <video style="padding: 20px; " controls autoplay>
-    <source s rc="{{ '/assets/movies/memory.mov' | relative_url }}" type="video/mp4">
+<div style="display: flex; justify-content: center; align-items: center; padding: 16px">
     <img src="{{ '/assets/images/memory.gif' | relative_url }}" alt="Ejemplo de ejecución">
-  </video>
 </div>
 
 La aplicación **deberá funcionar offline**, es decir, si en nuestro dispositivo activamos el modo avión y volvemos a la app tras haberla abierto al menos una vez, se podrá acceder a la misma sin problemas.
