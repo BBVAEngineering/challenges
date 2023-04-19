@@ -7,7 +7,7 @@ permalink: /kill/
 
 ## Enunciado
 
-Queremos que crees una app móvil web progresiva basada en el juego de **"Matar Topos"**. Si no lo conoces no pasa nada, a continuación te detallamos el funcionamiento del mismo.
+Queremos que crees una app móvil web progresiva basada en el juego de **"Toca al topo"**. Si no lo conoces no pasa nada, a continuación te detallamos el funcionamiento del mismo.
 
 La aplicación debe tener una primera vista **“home”** en la que el usuario introducirá su nombre para registrarse y empezar el juego. Esta primera vista deberá ser la ruta por defecto y cualquier acceso a una ruta que no exista debería redirigir a dicha vista.
 
